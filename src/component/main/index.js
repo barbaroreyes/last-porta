@@ -2,7 +2,7 @@ import React from 'react';
 import work from '../../work.jpg';
 import './main.css';
 import Map from '../map/map';
-import Footer from '../footer/footer'
+
 
 export default function Main() {
     return (
