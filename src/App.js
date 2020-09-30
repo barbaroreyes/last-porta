@@ -1,16 +1,23 @@
 import React from 'react';
 import './App.css';
+import './component/header/header.css';
+import{Link}from 'react-router-dom';
+import Footer from  './component/footer/footer'
 import Header from './component/header/header';
-import Main from './component/main/index';
-import Footer from './component/footer/footer'
-
 
 function App() {
   return (
     <main className="App">
-      <Header/>
-      <Main/>
-      <Footer/>
+      
+         <div><nav style={{margin:'10px',padding:'10px'}}>
+         <button className='btn1'><Link className='nav' to ="/">Home</Link></button>
+         <button className='btn1'>< Link target="_blank"  className='nav' to ="/about-Me">AboutMe</Link></button>
+                <button className='btn1'>< Link target="_blank"  className='nav' to ="/resume">Resume</Link></button>
+                <button className='btn1'> < Link target="_blank"  className='nav' to ="/contact">Contact</Link></button>
+                <button className='btn1'> < Link target="_blank"  className='nav' to ="/projects">ProJects</Link></button> 
+      </nav></div> 
+       <Header/>
+       <Footer/>
     </main>
   );
 }

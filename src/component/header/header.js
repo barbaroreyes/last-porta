@@ -1,15 +1,31 @@
-import React from 'react'
+import React from 'react';
+import './header.css'
+import {Switch, Route } from 'react-router-dom';
+import Main from '../main/index';
+import About from '../about-Me/about-Me';
+import Resume from '../resume/resume';
+import Contact from '../contact/contact';
+import Projects from '../proJects/projects'
 
-export default function header() {
+
+
+
+
+
+ 
+
+export default function Header() {
     return (
-        <div>
-              <nav style={{height:'50px'}}>
-                <button className='btn1'>< a className='nav' href ="/">Home</a></button>
-                <button className='btn1'>< a target="_blank"  className='nav' href ="/aboutMe">AboutMe</a></button>
-                <button className='btn1'>< a target="_blank"  className='nav' href ="/resume">Resume</a></button>
-                <button className='btn1'><a target="_blank"  className='nav' href ="/contact">Contact</a></button>
-                <button className='btn1'> <a target="_blank"  className='nav' href="/projects">Proyects</a></button>                          
-              </nav>
-        </div>
+        <header>
+           
+          <Switch>
+            <Route exact path ="/"         component={Main}/>  
+            <Route       path ="/about-Me" component ={About}/> 
+            <Route       path ="/resume"   component={Resume}/> 
+            <Route       path= "/contact"   component= {Contact}/>
+            <Route       path="/projects"    component={Projects}  />
+          </Switch>
+             
+        </header>
     )
 }

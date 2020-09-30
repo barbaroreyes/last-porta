@@ -1,0 +1,9 @@
+.nav{
+    color: grey;
+    margin: 20px; 
+    text-align: center; 
+    text-decoration: none;
+}
+.nav:hover{
+    color: green;
+}
