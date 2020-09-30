@@ -11,10 +11,10 @@ function App() {
       
          <div><nav style={{margin:'10px',padding:'10px'}}>
          <button className='btn1'><Link className='nav' to ="/">Home</Link></button>
-         <button className='btn1'>< Link target="_blank"  className='nav' to ="/about-Me">AboutMe</Link></button>
-                <button className='btn1'>< Link target="_blank"  className='nav' to ="/resume">Resume</Link></button>
-                <button className='btn1'> < Link target="_blank"  className='nav' to ="/contact">Contact</Link></button>
-                <button className='btn1'> < Link target="_blank"  className='nav' to ="/projects">ProJects</Link></button> 
+         <button className='btn1'>< Link className='nav' to ="/about-Me">AboutMe</Link></button>
+                <button className='btn1'>< Link  className='nav' to ="/resume">Resume</Link></button>
+                <button className='btn1'> < Link  className='nav' to ="/contact">Contact</Link></button>
+                <button className='btn1'> < Link  className='nav' to ="/projects">ProJects</Link></button> 
       </nav></div> 
        <Header/>
        <Footer/>
