@@ -1,7 +1,8 @@
 import React from 'react';
 import work from '../../work.jpg';
 import './main.css';
-import Map from '../map/map'
+import Map from '../map/map';
+import Footer from '../footer/footer'
 
 export default function Main() {
     return (
@@ -31,6 +32,7 @@ export default function Main() {
                         rel='noopener noreferrer' target='_black'>
                        <i className="  fab fa-facebook-square"></i></a>
                     </div>
+                    
                 </div>
         </section>
     )
