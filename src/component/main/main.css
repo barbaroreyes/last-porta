@@ -1,14 +1,11 @@
 .banner-text{
     text-align: center;
-   
-    opacity: .9;
-    width: 75%;
-    margin: auto;
+    opacity: .7;
     border-radius: 100px ;
-    background: #83a4d4;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: rgb(45, 117, 146)
+    background: #83a4d4;   
+     background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4); 
+    background: linear-gradient(to right, #b6fbff, #83a4d4); 
+    color: rgb(45, 117, 146) 
 }
 .picture{
     width: 250px;
