@@ -4,7 +4,7 @@ import './footer.css'
 export default function footer() {
     return (
         <footer >
-              <p  className='map'>@barbaritoThinkfull All Rights reserved</p>
+              <p  className='map'>@barbaritoThinkfull All Rights Reserved</p>
         </footer>
     )
 }
