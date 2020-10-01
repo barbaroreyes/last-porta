@@ -10,10 +10,10 @@ function App() {
     <main className="App">
       <div><nav style={{margin:'10px',padding:'10px'}}>
                <button className='btn1'><Link className='nav' to ="/" target='_black'>Home</Link></button>
-               <button className='btn1'>< Link className='nav' to ="/about-Me" target='_black'>AboutMe</Link></button>
-               <button className='btn1'>< Link  className='nav' to ="/resume" target='_black'>Resume</Link></button>
-               <button className='btn1'> < Link  className='nav' to ="/contact" target='_black'>Contact</Link></button>
-               <button className='btn1'> < Link  className='nav' to ="/projects" target='_black'>ProJects</Link></button> 
+               <button className='btn1'>< Link className='nav' to ="./about-Me" target='_black'>AboutMe</Link></button>
+               <button className='btn1'>< Link  className='nav' to ="./resume" target='_black'>Resume</Link></button>
+               <button className='btn1'> < Link  className='nav' to ="./contact" target='_black'>Contact</Link></button>
+               <button className='btn1'> < Link  className='nav' to ="./projects" target='_black'>ProJects</Link></button> 
     </nav></div> 
        <Header/>
        <Footer/>
