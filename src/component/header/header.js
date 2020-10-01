@@ -8,12 +8,6 @@ import Contact from '../contact/contact';
 import Projects from '../proJects/projects'
 
 
-
-
-
-
- 
-
 export default function Header() {
     return (
         <header>

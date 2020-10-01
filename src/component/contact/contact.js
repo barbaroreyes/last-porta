@@ -21,20 +21,20 @@ import work from '../../work.jpg';
                              <li>
                                 <article style={{fontSize:'25px',fontFamily:'Averia Gruesa Libre'}} >
                                 <i className="fas fa-phone-square">(512)6086054</i>
-                                <li><i class="fas fa-envelope-square"><a href='barbarotrabajo@gmail.com'><p><a href="mailto:barbarotrabajo@gmail.com?subject=Email%20Subject%20Here">Email Me</a></p></a></i></li>
+                                <li><i class="fas fa-envelope-square"><a href='barbarotrabajo@gmail.com'><p><a className='nav' href="mailto:barbarotrabajo@gmail.com?subject=Email%20Subject%20Here">Email Me</a></p></a></i></li>
                                 </article>
                             </li>
                             
                             <li>
                                 <article
                                  style={{fontSize:'25px',fontFamily:'Averia Gruesa Libre'}} >
-                                <i class="fab fa-github"><a href ='https://github.com/barbaroreyes'>https://github.com/barbaroreyes</a></i>
+                                <i class="fab fa-github"><a className='nav' href ='https://github.com/barbaroreyes'>https://github.com/barbaroreyes</a></i>
                                 </article>
                             </li>
                             <li>
                                 <article
                                  style={{fontSize:'25px',fontFamily:'Averia Gruesa Libre'}} >
-                                 <i className=" link fab fa-linkedin"><a href='https://www.linkedin.com/in/barbaro-reyes-b023aa1a7/'>https://www.linkedin.com/in/barbaro-reyes-b023aa1a7/</a></i>
+                                 <i className=" link fab fa-linkedin"><a className='nav' href='https://www.linkedin.com/in/barbaro-reyes-b023aa1a7/'>https://www.linkedin.com/in/barbaro-reyes-b023aa1a7/</a></i>
                                 </article>
                             </li>
                             <div className='socials-liks'>

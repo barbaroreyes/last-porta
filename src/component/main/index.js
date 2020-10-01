@@ -16,9 +16,8 @@ export default function Main() {
                           <p className='parraph'><i class="fab fa-html5">
                           </i>HTML/CSS<i className=" fab fa-css3-alt">
                           </i>|JavaScript<i class="fab fa-node-js">
-                          </i>|React-Redux<i class="fab fa-react"></i>
-                          |<button className='btn' style={{backgroundColor:'turquesa'}} >
-                          < a style={{backgroundColor:'',color:'grey'}} href ="/about-Me">AboutMe</a></button></p>
+                          </i>|React-Redux<i class="fab fa-react"></i>|
+                          </p>
                           <h3>you just don't climb the mountain you never got to </h3>
                                       
                      <div className='socials-liks'>
