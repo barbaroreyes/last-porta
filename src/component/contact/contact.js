@@ -21,7 +21,7 @@ import work from '../../work.jpg';
                              <li>
                                 <article style={{fontSize:'25px',fontFamily:'Averia Gruesa Libre'}} >
                                 <i className="fas fa-phone-square">(512)6086054</i>
-                                <li><i class="fas fa-envelope-square"><a href='barbarotrabajo@gmail.com'><p><a className='nav' href="mailto:barbarotrabajo@gmail.com?subject=Email%20Subject%20Here">Email Me</a></p></a></i></li>
+                                <li><i class="fas fa-envelope-square"><a href='barbarotrabajo@gmail.com'><p><a className='nav' href="mailto:barbarotrabajo@gmail.com?subject= Hey Barbaro, I'm interested in hearing from you! ">Email Me</a></p></a></i></li>
                                 </article>
                             </li>
                             
