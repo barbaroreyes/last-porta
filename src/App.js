@@ -9,7 +9,7 @@ function App() {
   return (
     <main className="App">
       <div><nav style={{margin:'10px',padding:'10px'}}>
-               <button className='btn1'><Link className='nav' to ="/">Home</Link></button>
+               <button className='btn1'><Link className='nav' to ="/" target='_black'>Home</Link></button>
                <button className='btn1'>< Link className='nav' to ="/about-Me">AboutMe</Link></button>
                <button className='btn1'>< Link  className='nav' to ="/resume">Resume</Link></button>
                <button className='btn1'> < Link  className='nav' to ="/contact">Contact</Link></button>
