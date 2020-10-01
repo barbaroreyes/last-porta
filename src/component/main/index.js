@@ -18,7 +18,7 @@ export default function Main() {
                           </i>|JavaScript<i class="fab fa-node-js">
                           </i>|React-Redux<i class="fab fa-react"></i>|
                           </p>
-                          <h3>you just don't climb the mountain you never got to </h3>
+                          <h3>you don't climb the mountain you never got to </h3>
                                       
                      <div className='socials-liks'>
                      <a className ='link' href="http://google.com" 

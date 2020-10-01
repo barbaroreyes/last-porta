@@ -11,7 +11,6 @@ import Projects from '../proJects/projects'
 export default function Header() {
     return (
         <header>
-           
           <Switch>
             <Route exact path ='/'           component={Main}/>  
             <Route       path ='/about-Me'   component ={About}/> 
@@ -19,7 +18,6 @@ export default function Header() {
             <Route       path= '/contact'    component= {Contact}/>
             <Route       path='/projects'   component={Projects}  />
           </Switch>
-             
-        </header>
+       </header>
     )
 }
