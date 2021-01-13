@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1fa4e170e11d7ef12ba11e5f82fb560",
+    "revision": "f02cba292bf739050772a86f639a402e",
     "url": "/last-porta/index.html"
   },
   {
-    "revision": "1ceac27c20cfc1c8d876",
-    "url": "/last-porta/static/css/main.e6a2d1ac.chunk.css"
+    "revision": "ee9e099ac775aa2ae3f7",
+    "url": "/last-porta/static/css/main.1fd8bc25.chunk.css"
   },
   {
-    "revision": "6a5fc68a7181ebe1020e",
-    "url": "/last-porta/static/js/2.8e04b7b3.chunk.js"
+    "revision": "7fc70517ab9028c5443d",
+    "url": "/last-porta/static/js/2.f06b3436.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/last-porta/static/js/2.8e04b7b3.chunk.js.LICENSE.txt"
+    "url": "/last-porta/static/js/2.f06b3436.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1ceac27c20cfc1c8d876",
-    "url": "/last-porta/static/js/main.5fb79232.chunk.js"
+    "revision": "ee9e099ac775aa2ae3f7",
+    "url": "/last-porta/static/js/main.d9a5a4aa.chunk.js"
   },
   {
     "revision": "203f4c7aa57c483bc570",
